@@ -1,0 +1,489 @@
+Total pages: 17
+
+===== PAGE 1 =====
+IR Pitch Deck
+AI-Native Working OS의 새로운 기준
+ AI 대분기(Great Bifurcation)의
+위기를 해결하라 
+Popup Studio
+ "95%의 실패를 멈추고, 실행하는 조직을 만드는
+ 유일한 표준 운영체제" 
+Popup Studio
+The AI-Native Working OS
+2026.02.05
+Confidential
+
+===== PAGE 2 =====
+SECTION 1
+The Crisis & The Root Cause
+ The Great Bifurcation
+인류 생산성의 양극화
+ "AI 도입 이후, 시장은 대화만 하는 그룹과 결과를 만드는 그룹으로 완전히 갈라졌습니다." 
+The Critical Risk
+ "역사상 처음으로, 에이전트로 무장한 아주 작은 팀이 1,000배 규모의 대기업을 압도(Outcompete)하고 있습니다." 
+The Chatters
+ 대부분의 조직(99%)이 여기에 머물러 있습니다.
+ 챗봇에게 질문하고 답변을 얻지만, 
+ 실행은 여전히 사람의 몫입니다. 
+ 단순 문답 (Q&A)
+ 수동 복사/붙여넣기
+ 파편화된 워크플로우
+Productivity Impact
++ 20%
+The Builders
+ AI-Native 조직(1%)은 에이전트를 조립합니다.
+ AI가 도구 사용, 코드 작성, 배포까지
+ 완결된 결과를 만들어냅니다. 
+ 에이전트 오케스트레이션
+ End-to-End 자동화
+ 스스로 개선하는 루프
+Productivity Impact
++ 1,000% (Exponential)
+
+===== PAGE 3 =====
+SECTION 1
+The Crisis & The Root Cause
+ The Root Cause
+왜 95%가 실패하는가?
+ "경영진은 혁신을 기대하지만,
+ 현장은 '95%의 실패'에 좌절하고 있습니다." 
+01
+Skill Gap
+극심한 격차
+조직 내 AI 활용 수준이 천차만별입니다.
+누구는 서비스를 뚝딱 만들어내는데,
+누구는 챗봇에 인사만 하고 있습니다. 
+02
+Psychological Barrier
+공포와 FOMO
+"나만 도태되는가?"
+구성원들은 막연한 두려움(Fear)과
+지속적인 학습 압박으로 인한 피로감에 시달립
+니다. 
+03
+Execution Gap
+성과의 부재
+AI 도입으로 단위 시간당 생산성은 높아졌지만,
+직원들에게 여유만 생겼을 뿐
+실질적인 회사의 성과로 연결되지 않습니다. 
+
+===== PAGE 4 =====
+SECTION 2
+The Solution: Engines & Strategy
+ 3 Engines for 3 Pains
+문제별로 최적화된 3가지 엔진
+Popup Studio
+Official IR Deck
+ "막막한 현실을 해결하기 위해,
+문제의 원인별로 최적화된 '3가지 엔진'을 제공합니다." 
+For Skill Gap
+bkit
+Creation Engine
+"표준 프로세스로 수준 통일"
+ Context Engineering 자동화로
+ 누구나 빌더가 될 수 있도록 문턱을 낮춥니다.
+ 개인의 역량 차이를 시스템으로 보완합니다. 
+For Fear & FOMO
+bkamp
+Scaling Engine
+"함께 학습으로 두려움 해소"
+ 검증된 레시피 공유와 커뮤니티.
+ 고립된 학습이 아닌 집단 지성으로
+ 구성원의 불안감을 성장의 동력으로 바꿉니다. 
+For Execution Gap
+bkend
+Infrastructure Engine
+"인프라·배포·운영 해결"
+ 백엔드, 보안, 운영의 복잡성을 제거합니다.
+ 직원들이 만든 결과물이 단순 습작이 아닌
+ 실제 서비스로 배포되어 가치를 만듭니다. 
+
+===== PAGE 5 =====
+SECTION 2
+The Solution: Engines & Strategy
+ The Strategy
+Open Core & Private OS
+Popup Studio
+ 오픈소스로 표준을 장악하고, 프라이빗 OS로 가치를 팝니다.
+01
+Penetration
+Open Source
+bkit CLI & bkamp
+"AI-Native의 표준"
+ 스킬셋, 소스와 레시피를 무료로 공개하여
+ 개발자 생태계를 선점하고
+ 사실상의 표준 지위 확보 
+ 개발자 커뮤니티 장악
+ bkit 생태계 확장
+02
+Adoption
+bkit Studio
+bkend & SaaS Model
+"사용자 층 폭발"
+ CLI가 어려운 초보자를 위한
+ 직관적인 UI 버전(Studio) 제공으로
+ Non-Tech 유저까지 저변 확대 
+ 진입 장벽 제거 (No-Code UI)
+ 부분 유료화 (Freemium)
+03
+Monetization
+bkit Enterprise
+Private OS
+"폐쇄형 인프라 수익화"
+ 기업 내부 데이터 보호와
+ 우리 회사만의 7-Step 표준이 내장된
+ 전용 인프라 구축으로 고수익 창출 
+ 사내 전용 앱스토어
+ Enterprise License & Support
+
+===== PAGE 6 =====
+SECTION 2
+The Solution: Engines & Strategy
+ Core Methodology
+7-Step Standard Process
+Popup Studio
+Official IR Deck
+ 우리는 단순한 툴이 아닌, "실패하지 않는 조직"을 만들기 위한
+7단계 표준 프로세스를 이식합니다. 
+Phase 1: Foundation
+01
+RAG System
+02
+Chat Interface
+03
+Context Engineering
+04
+Agent Registry
+Phase 2: Execution & Scaling
+05
+No-Code / Low-Code
+06
+Deployment
+07
+Governance
+Execution
+95% 실패를 넘어
+성과를 만드는 조직
+Fuel
+Data Onboarding
+실제 사원처럼 모든 데이터와 툴을 AI
+에게 연결
+Access
+AI Secretary
+모든 직원이 AI를 개인 비서처럼 활
+용, 본질 집중
+Context
+Docs & Specs
+사람과 AI에게 모두 통하는 문서로 일
+하는 문화 정착
+Alignment
+Tech Sharing
+각자의 스킬과 에이전트를 공유하고 
+검증된 것을 사용
+Creation
+Vibe Coding
+현장 도메인 전문가가 직접 필요한 서
+비스 개발
+Scaling
+Internal App Store
+실제 서비스 배포까지 실현하여 공유
+와 소통, 재사용
+Control
+Visual Monitoring
+토큰 및 AI 사용 현황, 업무 Flow 
+시각적 모니터링
+
+===== PAGE 7 =====
+SECTION 3
+The Engines & Business Model
+ Engine 1 (bkit & Studio)
+The Creation Engine
+Popup Studio
+Official IR Deck
+Our Philosophy:
+Docs = Code
+ 문서가 곧 코드가 되는 Context Engineering으로
+ 누구나 실행 가능한 표준을 만듭니다. 
+bkit CLI
+For Developers & Power Users
+Open Source
+bkit Studio
+For Everyone (SaaS)
+Subscription
+
+===== PAGE 8 =====
+SECTION 3
+The Engines & Business Model
+ Engine 2 (bkend)
+The Infrastructure Engine
+Popup Studio
+Official IR Deck
+Our Philosophy:
+Infra = Description
+ 복잡한 클라우드 설정 없이, 자연어 설명만으로
+ 3분 만에 전 세계로 확장 가능한 백엔드를 구축합니다. 
+Just Describe It
+Zero DevOps Required
+Speed
+Natural Language Deploy:
+자연어 설명만으로 DB, API, 배포가 3분 만에 완료
+Automated Pipeline:
+보안 설정, 도메인 연결 등 DevOps 엔지니어링 자동화
+Flexible Scalability
+Enterprise Grade Scale
+Growth
+Schema-less Structure:
+MongoDB 기반으로 마이그레이션 고통 없이 데이터 구조 변경
+Global Auto-Scaling:
+클릭 한 번으로 글로벌 리전 대응 및 수평적 무한 확장
+
+===== PAGE 9 =====
+SECTION 3
+The Engines & Business Model
+ Engine 3 (bkamp)
+The Scaling Engine
+Popup Studio
+Official IR Deck
+Our Goal:
+AI App Store
+ 검증된 AI 워크플로우를 자산화하고,
+ 조직 전체로 확산(Scale)하여 실행의 격차를 없앱니다. 
+Open Ecosystem
+For Community & Growth
+Open Source
+Private Asset
+For Enterprise Security
+Enterprise Only
+HR Helper
+v2.1 • HR Team
+INSTALLED
+Invoice Gen
+v1.0 • Finance
+UPDATE
+Sales Dash
+v3.4 • Sales
+OPEN
+Register New App
+
+===== PAGE 10 =====
+SECTION 3
+The Engines & Business Model
+ Business Model
+The Uncopyable Ecosystem
+Popup Studio
+Official IR Deck
+ "기능은 베낄 수 있어도, 생태계(Ecosystem)는 베낄 수 없습니다." 
+ The Moat 
+Why We Win
+Interdependency:
+세 엔진의 상호 의존성이 경쟁
+사의 부분적 진입을 차단
+Lock-in Effect:
+한 번 구축된 사내 에이전트 자
+산은 이전을 불가능하게 함
+ Monetization 
+Business Value
+Talent Upgrade:
+Chatters(소비자)를 
+Builders(생산자)로 진화시키
+는 솔루션
+Enterprise OS:
+전사적 배포/관리를 위한 'bkit 
+Studio Enterprise' 라이선스
+Ecosystem
+MOAT
+bkit
+Create
+bkend
+Deploy
+bkamp
+Scale
+Publish
+Support
+Share
+
+===== PAGE 11 =====
+SECTION 4
+Proof & Expansion
+ Real Proof: Actual Employees
+Non-Developers Building Real Products
+Popup Studio
+Official IR Deck
+
+===== PAGE 12 =====
+SECTION 4
+Proof & Expansion
+ Enterprise Traction & Ambassadors
+Validation from Corporations to Global Founders
+Popup Studio
+Official IR Deck
+Enterprise AX Transformation
+Global Collaboration
+A
+AlphaScan
+No.1 Monitor Brand
+AX Consulting
+"전사적 AX 트랜스포메이션"
+ 레거시 업무 방식을 AI-Native로 전환하는 직접 컨설팅 수행. 기획부터 CS까지 전 과정 자동화 도입. 
+#WorkProcess
+#AI_Ops
+D
+Disco
+Commercial Real Estate Platform
+Tech Migration
+"Legacy to Modern Stack"
+ 레거시 서비스를 바이브코딩을 통해 최신 스택으로 대규모 마이그레이션. 
+Legacy
+PHP/jQuery
+bkit
+Next.js
+US Founders x bkamp Ambassadors
+ "엄선된 bkamp 앰베서더들이 미국 창업자의 비전을 현실로 만듭니다." 
+Super Vibecoders
+High School & Univ Students
+Global Project Reference
+Real-world Dev Experience
+US Startups
+Early Stage Founders
+Rapid MVP Development
+Cost-Effective High Quality
+
+===== PAGE 13 =====
+SECTION 4
+Proof & Expansion
+ Global GTM
+The Vibecoding World Cup
+Popup Studio
+Official IR Deck
+5,000
+Target Builders
+24h
+Global Relay
+3
+Continents
+ 단순한 해커톤이 아닙니다.
+"기술적 주체성의 민주화"를 전 세계에 선포하며,
+ 글로벌 유저 베이스를 폭발적으로 확장하는 기폭제가 될 것입니다. 
+Powered by bkamp
+원스톱 접수, 팀 빌딩, 개발 진행
+AI Agent Judging
+코드 자동 분석 및 실시간 피드백
+Live Dashboard
+전 세계 현황 실시간 중계 (Gamification)
+ Global Vibecoding Competition
+Co-Hosted By
+EO
+(1M+ Subscribers)
+ COMING SOON: MARCH 21 
+24h Relay Schedule
+Asia (Seoul)
+KST 10:00
+Europe (London)
+GMT 09:00
+USA (San Francisco)
+PST 09:00
+
+===== PAGE 14 =====
+SECTION 4
+Proof & Expansion
+ Global Expansion: Manufacturing AX
+Becoming the "CUDA" of Smart Factories
+Popup Studio
+Official IR Deck
+The Opportunity
+The Consortium
+ "소프트웨어, 하드웨어/도메인, 교육이 결합된
+완전한 AX 패키지를 제공합니다." 
+The Strategy
+"The CUDA Moment"
+Smart Factory Services
+Monitoring, ERP, Automation
+US Manufacturing Sites
+Machines, Robots, Lines
+Only 43%
+US Manufacturing Roles Filled
+미국 리쇼어링 붐으로 공장은 늘어나지
+만, 이를 운영할 숙련된 MES 엔지니어는 
+턱없이 부족합니다.
+ Pain Point
+Factory Spending
+$200B+
+New US Factory Construction
+Popup Studio
+AX Tool (OS)
+DrimAES
+Domain / HW
+Codepresso
+Edu & Training
+ AX Alliance 
+AX Consortium Platform
+ The Essential OS connecting
+Operators to Machines 
+MUST HAVE
+
+===== PAGE 15 =====
+SECTION 4
+Proof & Expansion
+ Roadmap: From Factory to Robots
+Expanding the AI-Native OS Territory
+Popup Studio
+Official IR Deck
+Phase 1
+Smart Factory
+1차 벤더 제조 현장
+엑셀 수기 관리
+bkit 모니터링
+2025 Q4
+Phase 2
+Retail Kiosk
+소상공인 매장 솔루션
+외주 수정 의뢰
+점주 직접 에디터
+Phase 3
+Robotics
+로봇 제어 교육용 OS
+복잡한 C++ 코딩
+자연어 바이브 코딩
+2027
+CES 2027
+Global Vision
+Declaration
+ "미국 제조업 AI 표준 플랫폼"
+Standard Platform for US 
+Manufacturing
+Popup Studio IR Pitch Deck
+15 / 17
+
+===== PAGE 16 =====
+SECTION 5
+Vision
+Popup Studio
+Official IR Deck
+T h e  G r e a t  Tr a n s i t i o n
+NO ONE LEFT BEHIND
+"단 한 명도 도태되지 않는, 모두가 빌더가 되는 세상"
+ Empower Every Human to be an 
+Agentic Builder. 
+Collective Survival
+ bkit Studio Enterprise는 기업 내 모든 직원을
+ 단순 사용자(Chatter)에서 빌더(Builder)로 진화시켜,
+ AI 대분기 시대에 조직의 확실한 생존을 책임집니다. 
+Global Dominance
+ 외부 SI에 의존하지 않고
+내부 직원이 직접 혁신하는 조직은,
+ 글로벌 시장을 압도하는 S/W 경쟁력을 갖게 됩니다. 
+
+===== PAGE 17 =====
+Popup Studio
+Join the Revolution
+기술은 평준화되었습니다.
+ 격차를 만드는 것은 도구가 아니라
+ 그것을 다루는 시스템(OS)입니다. 
+ 팝업스튜디오와 함께
+ 실행하는 10%의 생존자가 되십시오. 
+Contact Our Team
+contact@popupstudio.ai
+www.popupstudio.ai
+Popup Studio Team
+Confidential / Proprietary
+17 / 17

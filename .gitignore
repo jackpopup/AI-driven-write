@@ -1,0 +1,27 @@
+# Claude Code local settings
+.claude/settings.local.json
+.claude/todos.json
+
+# bkit local
+.bkit/
+
+# PDCA internal tracking
+docs/.pdca-snapshots/
+docs/.pdca-status.json
+docs/.bkit-memory.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Node (if any)
+node_modules/
+
+# PDF extracts (temporary)
+docs/drafts/pdf_extract.txt
