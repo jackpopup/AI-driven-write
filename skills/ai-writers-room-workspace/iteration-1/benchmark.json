@@ -1,0 +1,83 @@
+{
+  "skill_name": "ai-writers-room",
+  "iteration": 1,
+  "timestamp": "2026-03-13T12:00:00Z",
+  "configurations": [
+    {
+      "name": "with_skill",
+      "display_name": "AI Writers Room",
+      "evals": [
+        {
+          "eval_id": 1,
+          "eval_name": "ai-trend-blog",
+          "pass_rate": 1.0,
+          "passed": 6,
+          "total": 6,
+          "duration_seconds": 429.1,
+          "total_tokens": 45121
+        },
+        {
+          "eval_id": 2,
+          "eval_name": "korean-opinion",
+          "pass_rate": 1.0,
+          "passed": 6,
+          "total": 6,
+          "duration_seconds": 339.0,
+          "total_tokens": 43585
+        }
+      ],
+      "aggregate": {
+        "mean_pass_rate": 1.0,
+        "stddev_pass_rate": 0.0,
+        "mean_duration_seconds": 384.05,
+        "stddev_duration_seconds": 63.7,
+        "mean_tokens": 44353,
+        "stddev_tokens": 1086.5
+      }
+    },
+    {
+      "name": "without_skill",
+      "display_name": "Baseline (No Skill)",
+      "evals": [
+        {
+          "eval_id": 1,
+          "eval_name": "ai-trend-blog",
+          "pass_rate": 0.33,
+          "passed": 2,
+          "total": 6,
+          "duration_seconds": 63.9,
+          "total_tokens": 23969
+        },
+        {
+          "eval_id": 2,
+          "eval_name": "korean-opinion",
+          "pass_rate": 0.33,
+          "passed": 2,
+          "total": 6,
+          "duration_seconds": 65.0,
+          "total_tokens": 24352
+        }
+      ],
+      "aggregate": {
+        "mean_pass_rate": 0.33,
+        "stddev_pass_rate": 0.0,
+        "mean_duration_seconds": 64.45,
+        "stddev_duration_seconds": 0.78,
+        "mean_tokens": 24160.5,
+        "stddev_tokens": 270.8
+      }
+    }
+  ],
+  "delta": {
+    "pass_rate": "+67%",
+    "duration": "+5.96x",
+    "tokens": "+1.84x"
+  },
+  "analyst_observations": [
+    "The skill achieves 100% pass rate vs 33% baseline — a dramatic improvement in structured output quality.",
+    "Baseline passes only 'content quality' assertions (audience-fit, balanced-tone) but fails all 'process' assertions (multi-draft, review-gate, fact-check, headline-options). This is expected — without the skill, Claude produces a single good article but has no multi-agent pipeline.",
+    "Cost: ~1.84x more tokens and ~6x more time. This is the price of running a 7-phase pipeline with parallel subagents. For professional content production where quality matters, this tradeoff is worthwhile.",
+    "The char-count assertion for Eval 2 baseline failed (5000 vs 2000 target) — suggesting the skill's structured outline phase helps with length discipline.",
+    "Non-discriminating assertions: audience-fit and balanced-tone pass in both configurations, suggesting Claude's baseline writing quality is already good for tone/audience targeting. The skill's value-add is in process structure, not raw writing quality."
+  ]
+}

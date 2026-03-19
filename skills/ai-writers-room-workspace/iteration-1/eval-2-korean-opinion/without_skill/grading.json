@@ -1,0 +1,37 @@
+{
+  "eval_id": 2,
+  "eval_name": "korean-opinion",
+  "configuration": "without_skill",
+  "expectations": [
+    {
+      "text": "Produces at least 3 distinct Korean draft versions with different approaches",
+      "passed": false,
+      "evidence": "Only one file exists in outputs/ (final.md). There are no separate draft versions with different approaches (e.g., humorous, serious, fact-driven). The output is a single polished opinion piece."
+    },
+    {
+      "text": "Maintains balanced perspective (neither overly optimistic nor pessimistic about AI)",
+      "passed": true,
+      "evidence": "The article explicitly acknowledges AI's capabilities ('AI가 대체할 수 있는 기자의 업무는 상당히 많다') while arguing journalists remain essential for on-the-ground reporting, editorial judgment, and accountability. Section '위기가 아니라 재정의의 시간' frames the situation as redefinition rather than doom. Section '도구를 거부하지 말되, 도구에 잠식되지도 말라' advocates pragmatic adoption without surrender. This is a well-balanced perspective."
+    },
+    {
+      "text": "Content speaks directly to working journalists with relevant industry references",
+      "passed": true,
+      "evidence": "The piece opens with a junior reporter's question, references AP통신's automated earnings articles (since 2014), Bloomberg's Cyborg system, Korean newsrooms using AI for earthquake alerts/election results/weather. It uses journalist-specific language: 바이라인, 오보, 취재원, 탐사보도, 해석 저널리즘, 보도자료, 뉴스룸. The audience is clearly working journalists."
+    },
+    {
+      "text": "Includes editorial review (fact-check, proofread, or structural edit)",
+      "passed": false,
+      "evidence": "No review artifacts exist in the output. There is no fact-check report, proofread markup, structural edit notes, or any indication that a separate editorial review step was performed. Only a single final.md file is present."
+    },
+    {
+      "text": "Provides headline options in Korean that are compelling and specific",
+      "passed": false,
+      "evidence": "Only one headline is provided: 'AI가 기사를 쓰는 시대, 기자는 무엇을 쓸 것인가'. While it is compelling and specific, the assertion asks for headline 'options' (plural). No alternative headlines were offered."
+    },
+    {
+      "text": "Final output is approximately 2000 characters in Korean",
+      "passed": false,
+      "evidence": "The file is approximately 5000 characters (including markdown formatting and whitespace). Even accounting for markdown headers and spacing, the Korean text content substantially exceeds the ~2000 character target, being roughly 2.5x the expected length."
+    }
+  ]
+}

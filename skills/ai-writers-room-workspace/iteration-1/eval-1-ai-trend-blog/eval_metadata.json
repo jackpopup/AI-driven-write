@@ -1,0 +1,37 @@
+{
+  "eval_id": 1,
+  "eval_name": "ai-trend-blog",
+  "prompt": "I want to write a blog post about how vibe coding is changing the software industry. Target audience is non-technical founders and business leaders. Around 1500 words. Make it compelling but grounded in real examples.",
+  "assertions": [
+    {
+      "id": "multi-draft",
+      "text": "Produces at least 3 distinct draft versions with different tones/styles",
+      "type": "binary"
+    },
+    {
+      "id": "review-gate",
+      "text": "Includes a Review Gate / direction approval step before drafting",
+      "type": "binary"
+    },
+    {
+      "id": "fact-check",
+      "text": "Includes a fact-checking or review step that flags unverified claims",
+      "type": "binary"
+    },
+    {
+      "id": "headline-options",
+      "text": "Provides multiple headline options for the final piece",
+      "type": "binary"
+    },
+    {
+      "id": "audience-fit",
+      "text": "Content is appropriate for non-technical founders (avoids jargon, uses business analogies)",
+      "type": "binary"
+    },
+    {
+      "id": "word-count",
+      "text": "Final output is approximately 1500 words (1200-1800 range)",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "eval_id": 2,
+  "eval_name": "korean-opinion",
+  "prompt": "AI 시대에 기자의 역할이 어떻게 변할지에 대한 칼럼을 써줘. 대상 독자는 현직 언론인들이고, 2000자 내외로. 너무 낙관적이지도 비관적이지도 않게, 균형 잡힌 시각으로.",
+  "assertions": [
+    {
+      "id": "multi-draft-kr",
+      "text": "Produces at least 3 distinct Korean draft versions with different approaches",
+      "type": "binary"
+    },
+    {
+      "id": "balanced-tone",
+      "text": "Maintains balanced perspective (neither overly optimistic nor pessimistic about AI)",
+      "type": "binary"
+    },
+    {
+      "id": "audience-journalists",
+      "text": "Content speaks directly to working journalists with relevant industry references",
+      "type": "binary"
+    },
+    {
+      "id": "review-process",
+      "text": "Includes editorial review (fact-check, proofread, or structural edit)",
+      "type": "binary"
+    },
+    {
+      "id": "headline-kr",
+      "text": "Provides headline options in Korean that are compelling and specific",
+      "type": "binary"
+    },
+    {
+      "id": "char-count",
+      "text": "Final output is approximately 2000 characters in Korean",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "eval_id": 1,
+  "eval_name": "ai-trend-blog",
+  "configuration": "without_skill",
+  "expectations": [
+    {
+      "text": "Produces at least 3 distinct draft versions with different tones/styles",
+      "passed": false,
+      "evidence": "Only one output file exists (final.md). There are no separate draft versions with different tones. The output is a single article in one consistent informational/advisory tone."
+    },
+    {
+      "text": "Includes a Review Gate / direction approval step before drafting",
+      "passed": false,
+      "evidence": "The output contains only the final article. There is no evidence of a Review Gate step, direction approval checkpoint, or any intermediate planning/approval process documented in the outputs."
+    },
+    {
+      "text": "Includes a fact-checking or review step that flags unverified claims",
+      "passed": false,
+      "evidence": "No fact-checking step or review annotations are present. The article makes several claims that would benefit from verification (e.g., 'MVP cost $50,000 to $250,000', 'Peter Levels hit $100K MRR', 'Y Combinator latest batch includes zero-programming founders', '30-55% productivity improvements') but none are flagged, verified, or annotated with source confidence levels."
+    },
+    {
+      "text": "Provides multiple headline options for the final piece",
+      "passed": false,
+      "evidence": "Only one headline is provided: 'Vibe Coding Is Rewriting the Rules of Software — And Founders Need to Pay Attention'. No alternative headline options are offered."
+    },
+    {
+      "text": "Content is appropriate for non-technical founders (avoids jargon, uses business analogies)",
+      "passed": true,
+      "evidence": "The article is clearly written for a business audience. It avoids deep technical jargon, explains concepts in plain language (e.g., 'describing what you want in plain English'), uses business-relevant framing (cost reduction, competitive advantage, talent/hiring), and provides practical business advice. Technical terms like 'database schemas' and 'authentication systems' appear only to illustrate what founders no longer need to worry about."
+    },
+    {
+      "text": "Final output is approximately 1500 words (1200-1800 range)",
+      "passed": true,
+      "evidence": "Word count is 1,369 words, which is above the 1,200 minimum threshold of the acceptable range (1200-1800)."
+    }
+  ]
+}

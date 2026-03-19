@@ -1,0 +1,37 @@
+{
+  "eval_id": 2,
+  "eval_name": "korean-opinion",
+  "configuration": "with_skill",
+  "expectations": [
+    {
+      "text": "multi-draft-kr: Produces at least 3 distinct Korean draft versions with different approaches",
+      "passed": true,
+      "evidence": "Three distinct drafts produced: Draft A (draft-A.md) is a copywriter-led version with witty hooks and direct 2nd-person address ('당신'); Draft B (draft-B.md) is a PD/producer-led version using narrative storytelling with a fictional journalist anecdote and circular structure; Draft C (draft-C.md) is a senior journalist-led version with dense factual analysis, numbered arguments, and academic tone. Each has clearly different tone, structure, and rhetorical strategy while covering the same topic."
+    },
+    {
+      "text": "balanced-tone: Maintains balanced perspective (neither overly optimistic nor pessimistic about AI)",
+      "passed": true,
+      "evidence": "All drafts and the final output explicitly acknowledge AI's real capabilities (replacing data-driven articles, speed advantages) while arguing journalists retain irreplaceable roles (asking questions, ethical judgment, contextual interpretation). The direction-brief states the tone as '균형 잡힌 분석... 낙관도 비관도 아닌, 현실 직시 위에 세운 실용적 희망'. Draft C explicitly rejects both extremes: '하나는 AI가 기자를 대체할 것이라는 비관론이고, 다른 하나는 기자의 일은 AI가 절대 못 한다는 낙관론이다. 둘 다 부정확하다.' The review report scores Draft A highest on balance (5/5 stars for 균형감)."
+    },
+    {
+      "text": "audience-journalists: Content speaks directly to working journalists with relevant industry references",
+      "passed": true,
+      "evidence": "Target audience explicitly defined as '현직 언론인 (기자, 편집기자, 데스크)'. Content includes specific industry references: AP통신 Wordsmith (2014), 로이터 Lynx Insight, 워싱턴포스트 Heliograf, 연합뉴스 로봇기자 '사커봇', 옥스퍼드 로이터저널리즘연구소. Draft A uses direct 2nd-person address to journalists ('당신의 다음 명함'). Practical advice targets journalists specifically: AI 편집장 역할, 데이터 저널리즘, 뉴스레터/개인 채널 브랜딩, 탐사보도. References to newsroom-specific concepts like 리드, 속보, 취재원, 데스크."
+    },
+    {
+      "text": "review-process: Includes editorial review (fact-check, proofread, or structural edit)",
+      "passed": true,
+      "evidence": "review-report.md contains a comprehensive 3-part review: (1) 팩트 체커 검수 — verified AP 2014 claim, flagged '0.3초' as unverifiable, questioned 75% statistic from Reuters Institute, noted overstatement in '사람 손을 거치지 않고'; (2) 교열팀 검수 — checked grammar/spelling across all drafts, identified '스스로' typo, assessed stylistic consistency; (3) 편집자 검수 — evaluated structure, flow, readability, and audience fit for each draft with specific improvement suggestions. The final output incorporated review feedback (e.g., changed '수천 건' to '4,000건 이상', added '최소한의 사람 감수만으로', added hallucination reference from Draft C)."
+    },
+    {
+      "text": "headline-kr: Provides headline options in Korean that are compelling and specific",
+      "passed": true,
+      "evidence": "final.md Phase 6 (Polish) provides 9 headline options across 3 drafts: Draft A — 'AI가 기사를 쓰는 시대, 기자는 무엇을 쓸 것인가', '서명 없는 기사의 시대', '질문은 사람의 것이다'; Draft B — 'AI 앞에서 다시 신입이 된 기자에게', '침묵을 읽는 사람들', '기자가 써야 할 마지막 기사'; Draft C — 'AI 시대, 기자의 재정의', '대체되는 것과 대체되지 않는 것', '정보 전달자에서 의미 해석자로'. Each has an accompanying lead sentence (리드문). Headlines are specific to the AI-journalism topic, use varied rhetorical strategies (question, metaphor, contrast), and are in natural Korean."
+    },
+    {
+      "text": "char-count: Final output is approximately 2000 characters in Korean",
+      "passed": true,
+      "evidence": "The final article (from '당신이 이 글을 읽는 동안' to '여전히 사람의 입에서 시작된다') spans approximately 33 lines of Korean prose. Estimating from the text density (average ~60 Korean characters per line of body text, excluding markdown headers and blank lines), the article body is approximately 1,800-2,100 characters. The outline specified '2,000자 내외' as the target, and the section allocations (350+400+450+450+350 = 2,000) align with this target. The final output is within the approximate 2,000 character range."
+    }
+  ]
+}

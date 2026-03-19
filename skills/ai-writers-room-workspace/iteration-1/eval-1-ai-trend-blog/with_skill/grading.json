@@ -1,0 +1,37 @@
+{
+  "eval_id": 1,
+  "eval_name": "ai-trend-blog",
+  "configuration": "with_skill",
+  "expectations": [
+    {
+      "text": "Produces at least 3 distinct draft versions with different tones/styles",
+      "passed": true,
+      "evidence": "Three distinct drafts produced: Draft A (draft-A.md) is 'Witty & Hook-Driven' led by the Copywriter with a conversational, punchy tone and the Sarah Chen anecdote; Draft B (draft-B.md) is 'Storytelling & Emotional Arc' led by the Producer with the Maria Gutierrez narrative and emotional bookending; Draft C (draft-C.md) is 'Fact-Driven & Authoritative' led by the Senior Journalist with careful hedging language, institutional data sourcing, and no character anecdotes. Each has a different title, opening strategy, and register."
+    },
+    {
+      "text": "Includes a Review Gate / direction approval step before drafting",
+      "passed": true,
+      "evidence": "direction-brief.md contains a 'Phase 1: Plan Output' with agent proposals from Senior Journalist, Copywriter, Producer, and Editor, followed by a 'Synthesized Direction' section with title options, core message, target audience, tone direction, and proposed structure. outline.md contains a 'Phase 2: Design Output' with detailed section-by-section breakdown. These plan/design phases precede the Do phase drafts, establishing a review gate before drafting begins."
+    },
+    {
+      "text": "Includes a fact-checking or review step that flags unverified claims",
+      "passed": true,
+      "evidence": "review-report.md contains a detailed 'Fact Checker Review' section that evaluates each draft individually. It explicitly flags unverified claims: Sarah Chen anecdote marked 'UNVERIFIED — appears to be a composite/representative character'; Maria Gutierrez bakery narrative marked 'UNVERIFIED — Clearly a composite character'; the '40% of custom cake orders' metric marked 'UNVERIFIED'; Y Combinator 25% figure marked 'PARTIALLY VERIFIED'; and an implied '10x cost reduction' flagged as 'OVERSTATED'. Specific corrections are recommended for each."
+    },
+    {
+      "text": "Provides multiple headline options for the final piece",
+      "passed": true,
+      "evidence": "final.md includes a 'Headline Director's Recommendations' section with 3 headline options for each of the 3 drafts (9 total headlines). For Draft A: 'The $50,000 Prototype That Now Costs a Conversation', 'When Everyone Can Build Software, Only Vision Matters', 'Vibe Coding Is Real and Your Next Board Meeting Should Be About It'. Similar sets for Drafts B and C. Additionally, direction-brief.md proposed 3 'Top 3 Title Options' during the Plan phase."
+    },
+    {
+      "text": "Content is appropriate for non-technical founders (avoids jargon, uses business analogies)",
+      "passed": true,
+      "evidence": "The final article consistently uses business-friendly language: 'no-code gave you a menu to order from. Vibe coding gave you the chef'; frames implications as business strategy ('Speed to Market', 'The Talent Equation Is Flipping', 'Your Competitive Moat Just Shifted'); uses dollar figures and timelines founders relate to ('$45,000 to $80,000', 'six figures and six months'); avoids technical jargon (no mentions of APIs, frameworks, programming languages); and provides actionable business advice segmented by timeframe (this week/month/quarter). The target audience is explicitly defined as 'Non-technical founders and business leaders' in the direction brief."
+    },
+    {
+      "text": "Final output is approximately 1500 words (1200-1800 range)",
+      "passed": true,
+      "evidence": "The full final.md file is 1696 words including the Headline Director's Recommendations and selection rationale (~200 words of meta-content). The Final Polished Article section itself is approximately 1450-1500 words. Both the full file and the article-only portion fall within the 1200-1800 word range."
+    }
+  ]
+}

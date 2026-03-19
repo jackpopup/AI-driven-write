@@ -1,0 +1,19 @@
+{
+  "skill_name": "ai-writers-room",
+  "evals": [
+    {
+      "id": 1,
+      "name": "ai-trend-blog",
+      "prompt": "I want to write a blog post about how vibe coding is changing the software industry. Target audience is non-technical founders and business leaders. Around 1500 words. Make it compelling but grounded in real examples.",
+      "expected_output": "3 distinct draft versions (witty, storytelling, fact-driven) with headlines, plus a direction brief and review gate before drafting",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "korean-opinion",
+      "prompt": "AI 시대에 기자의 역할이 어떻게 변할지에 대한 칼럼을 써줘. 대상 독자는 현직 언론인들이고, 2000자 내외로. 너무 낙관적이지도 비관적이지도 않게, 균형 잡힌 시각으로.",
+      "expected_output": "한국어로 3가지 버전 초안, 팩트체크/교열/편집 리뷰, 헤드라인 제안 포함",
+      "files": []
+    }
+  ]
+}
